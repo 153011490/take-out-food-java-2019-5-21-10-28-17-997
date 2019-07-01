@@ -24,7 +24,6 @@ public class App {
         //买家欲购买的商品
         Map<Item, Integer> items=new LinkedHashMap<Item, Integer>();
         for(String itemString : inputs) {
-            System.out.println(itemString);
             String[] arr=itemString.trim().split("x");
             for(Item item : itemList) {
                 if(item.getId().equals(arr[0].trim())) {
