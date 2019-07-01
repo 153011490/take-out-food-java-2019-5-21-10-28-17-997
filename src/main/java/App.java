@@ -84,7 +84,6 @@ public class App {
             }
             halfResult.append(item.getName()+" x "+count+" = "+Math.round(item.getPrice()*count)+"元\n");
         }
-        System.out.println("半价"+halfPriceTotal);
         StringBuffer result=new StringBuffer("============= 订餐明细 =============\n");
         //比较价格
         if(!isHalf&&!isFull) {
